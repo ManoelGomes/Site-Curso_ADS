@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="estilo css.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <title>Inicio</title>
+</head>
+<body>
+<!-- menu -->
+
+<header class="header">
+    <h1 class="container titulo__1">Curso Superior de Tecnologia em <br><span class="titulo__2">Análise e Desenvolvimento de Sistemas</span></h1>
+</header>
+<div class="topnav" id="myTopnav">
+    <section class="container">
+        <a href="inicio" >Inicio</a>
+        <a href="disciplinas">Disciplinas</a>
+        <a href="professores">Professores</a>
+        <a href="contato">Contato</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </section>
+        
+      </div>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+<!-- <nav class="menu" id="myTopnav"> 
+    <ul class="container">
+        <li>Inicio</li>
+        <li>Disciplinas</li>
+        <li>Professores</li>
+        <li>Contato</li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </ul> -->
+</nav>
+    <!-- principal -->
+    <main class="main">
+        <div id="inicio">
+            <section>
+                <div>
+                    <h1>Perfil profissional de conclusão</h1> 
+                </div>
+                <div>
+                    <p class="main__texto_1 ">
+                    Analisa, projeta, desenvolve, testa, implanta e mantém sistemas computacionais
+                    de informação. Avalia, seleciona, especifica e utiliza metodologias, tecnologias
+                    e ferramentas da Engenharia de Software, linguagens de programação e bancos
+                    de dados. Coordena equipes de produção de softwares. Vistoria, realiza perícia,
+                    avalia, emite laudo e parecer técnico em sua área de formação
+                    </p>
+                </div>
+                
+                <div>
+                    <h1>Campo de atuação</h1>
+                </div>
+                <div>
+                    <p class="main__texto_2">Empresas de planejamento, desenvolvimento de projetos, assistência técnica e consultoria.<br>
+                        Empresas de tecnologia.<br>
+                        Empresas em geral (indústria, comércio e serviços).<br>
+                        Organizações não-governamentais.<br>
+                        Órgãos públicos.<br>
+                        Institutos e Centros de Pesquisa.<br>
+                        Instituições de Ensino, mediante formação requerida pela legislação vigente.<br></p>
+                </div>
+                <div>
+                    <h1>Processo seletivo</h1>
+                </div>
+                <div >
+                    <p class="main__texto_3">Entrada Anual:</p>
+                    <ul>
+                        <li class="li">20 vagas através da nota do ENEM</li>
+                        <li class="li">20 vagas através da nota do Ensino Médio</li>
+                    </ul>
+                </div>
+                <div class="main__conceito">
+                    <h1>Conceito do curso</h1><br>
+                    <p>4</p>
+                </div>
+                <div class="coordenador">
+                    <h1 >Coordenador</h1>
+                    <img src="imagen/coordenador curso.jpg" alt="Juliano Fisher Naves">
+                    <p>Prof.º Juliano Fisher Naves</p>
+                </div>
+            </section>
+        </div> 
+    </main>
+   
+    <footer class="footer_desc">
+        <div class="container">
+            <img src="imagen/logo-ifro-branco.png" alt="Logotipo Ifro campus Vilhena">
+            <h1>IFRO Campus Vilhena</h1>
+            <p>Endereço: Rodovia BR-174. Km 3 S/n Zona Urbana, Vilhena - RO, 76980-000</p>
+            <p>Telefone: (69) 2101-0700</p>
+        </div>
+    </footer> 
+</body>
+</html>
